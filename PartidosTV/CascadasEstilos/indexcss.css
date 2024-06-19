@@ -1,0 +1,107 @@
+* {
+  margin: 10px;
+}
+
+body {
+  background: #020033;
+}
+.Encabezado {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+  justify-content: space-between;
+  background: white;
+}
+
+.Derecha {
+  display: grid;
+  grid-template-rows: 100%;
+  font-family: Verdana;
+  height: 100px;
+  width: 500px;
+  text-align: center;
+  background: white;
+}
+
+.Logo {
+  background: white;
+}
+
+Nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: whitesmoke;
+}
+.MenuFutbol {
+  position: relative;
+  display: inline-block;
+}
+.MenuBaloncesto {
+  position: relative;
+  display: inline-block;
+}
+.OpcionesFutbol {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  border-radius: 4px;
+}
+.OpcionesBaloncesto {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  border-radius: 4px;
+}
+.OpcionesFutbol a {
+  color: black;
+  padding: 7px 10px;
+  text-decoration: none;
+  display: block;
+}
+.OpcionesBaloncesto a {
+  color: black;
+  padding: 7px 10px;
+  text-decoration: none;
+  display: block;
+}
+.OpcionesFutbol a:hover {
+  background-color: gray;
+}
+.OpcionesBaloncesto a:hover {
+  background-color: gray;
+}
+.MenuFutbol:hover .OpcionesFutbol {
+  display: block;
+}
+.MenuBaloncesto:hover .OpcionesBaloncesto {
+  display: block;
+}
+
+footer {
+  background-color: #010020;
+  color: gray;
+  padding: 20px 0;
+  text-align: center;
+}
+.Footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Red {
+  margin-bottom: 10px;
+}
+.Redes a {
+  display: inline-block;
+  margin: 0 10px;
+}
+.Redes img {
+  width: 30px;
+  height: auto;
+}
