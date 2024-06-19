@@ -1,0 +1,54 @@
+*{
+	margin: 10px;
+}
+
+body{
+	background: #020033;
+}
+.Encabezado {
+	border: 1px solid black;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 5px;
+	justify-content: space-between;
+	background: white;
+}
+
+.Derecha{
+	display: grid;
+	grid-template-rows: 100%;
+	font-family: Verdana;
+	height: 100px;
+	width: 500px;
+	text-align: center;
+	background: white;
+}
+
+.Logo{
+	background: white;
+}
+
+.ContenedorGrid{
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+}
+.PantallaVideo {
+	border: 2px solid black;
+	height: 550px;
+	background-color: green;
+}
+
+.Alineaciones {
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	border: 2px solid black;
+	height: 550px;
+	background-color: green;
+	text-align: center;
+}
+
+.Publicidad{
+	border: 1px solid black;
+	background: green;
+}
